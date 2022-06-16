@@ -1,0 +1,80 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.product-small-img img{
+  height:92px;
+  margin:10px 0;
+   cursor:pointer;
+  display:block;
+  opacity:1.6;
+}
+.product-small-img img:hover{
+opacity:1;
+}
+.product-small-img{
+float:left;
+}
+.product{
+   padding-top: 50px;
+   padding-left: 20%;
+   position:absolute;
+}
+.img-container img{
+    height: 500px;
+}
+.img-container{
+    float:right;
+    padding: 10px;
+    float: left;
+}
+.info{
+    float: left;
+    padding-right: 40px;
+}
+.clothname{
+    padding-left: 20px;
+    font-weight: 700px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.price{
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000ea;
+    font-weight: 700;
+}
+.color{
+    width: 50%;
+    height: 50px;
+    border-radius: 50%;}
+
+
+
+@media (max-width:960px) {
+.product{
+transition: .2s;
+    padding-left: 105px;
+}
+}
+
+@media (max-width:600px) {
+
+    .img-container img {
+        transition: .3s;
+        height: 300px;
+    }
+    .product-small-img img {
+        transition: .3s;
+        height: 52px;
+    }
+    .clothname{
+        padding-left: 0;
+    }
+    .price{
+        padding-left: 0;
+        margin-top: -20px;
+    }
+}
