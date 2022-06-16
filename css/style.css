@@ -56,7 +56,7 @@ float:left;
 @media (max-width:960px) {
 .product{
 transition: .2s;
-    padding-left: 105px;
+text-align: center;
 }
 }
 
